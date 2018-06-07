@@ -1,24 +1,27 @@
 {
-  "name": "vue-server-render-for-tsw",
+  "name": "vue-server-renderer-for-tsw",
   "version": "1.0.0",
-  "description": "vue-server-render wrapper for TSW(Tencent Server Web)",
+  "description": "vue-server-renderer wrapper for TSW(Tencent Server Web)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mapleeit/vue-server-render-for-tsw.git"
+    "url": "git+https://github.com/mapleeit/vue-server-renderer-for-tsw.git"
   },
   "keywords": [
     "vue",
-    "vue-server-render",
+    "vue-server-renderer",
     "tsw"
   ],
   "author": "maplemiao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mapleeit/vue-server-render-for-tsw/issues"
+    "url": "https://github.com/mapleeit/vue-server-renderer-for-tsw/issues"
   },
-  "homepage": "https://github.com/mapleeit/vue-server-render-for-tsw#readme"
+  "homepage": "https://github.com/mapleeit/vue-server-renderer-for-tsw#readme",
+  "dependencies": {
+    "vue-server-renderer": "^2.5.16"
+  }
 }
