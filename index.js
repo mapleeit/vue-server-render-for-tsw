@@ -1,16 +1,16 @@
-const vueServerRender
+let vueServerRender
 
 // if global.window exsits, which is a TSW inner variable
 if (typeof global.window === 'object') {
-    const windowCopy = global.window
+    let windowCopy = global.window
 
     if (typeof window.disable === 'function') {
         window.disable()
     }
 
-    vueServerRender = require('vue-server-render')
+    vueServerRender = require('vue-server-renderer')
 
-    if (typeof window.enable === 'function') {
+    if (typeof windowCopy.enable === 'function') {
         windowCopy.enable()
     }
 }
