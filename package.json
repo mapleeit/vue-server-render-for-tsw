@@ -1,6 +1,6 @@
 {
   "name": "@tencent/vue-server-renderer-for-tsw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vue-server-renderer wrapper for TSW(Tencent Server Web)",
   "main": "index.js",
   "scripts": {
